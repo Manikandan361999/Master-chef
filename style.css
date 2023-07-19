@@ -1,0 +1,91 @@
+
+body{
+    font-family: latha;
+    color: white;
+    background:url(chef\ img.jpg)no-repeat; 
+    background-size: cover ;
+}
+.box{ width: 900px;
+    float: right;
+    border: 1px solid black;
+}
+.box ul li { width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul  li a { text-decoration: none;
+    color: darkgray;
+}
+.box ul li:hover {background-color: green;}
+.box ul li a:hover{color:white;}
+
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.wd{
+    text-align: justify;
+    color: darkgrey;
+    font-weight: normal;
+}
+
+.wd{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px;
+}
+
+.opt form , input[type="button"]{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+form, input[type="button"]:hover{background-color: green;}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    
+}
+
+.items img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+ .item img:hover{
+    transform: scale(1.04);
+
+ }
+
+ .item h4{
+    padding: 5px;
+    text-align: center;
+ }
+
+ .item button{
+    padding: 5px 30px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius:
+ }
